@@ -19,7 +19,7 @@ public interface ApiService {
 
     @FormUrlEncoded
     @POST("upload.php")
-    Call<String> getImageData(
+    Call<String> uploadImageData(
             @Field("image1") String image
     );
 
